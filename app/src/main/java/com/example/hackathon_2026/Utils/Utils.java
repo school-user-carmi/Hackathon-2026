@@ -13,9 +13,23 @@ public class Utils {
     private static JSONObject getJsonObjectOfProducts(){
         return null;
     }
-    public static void getBarcodeByName(String name){
+    public static String getBarcodeByName(String name) {
+        List<Product> productsList = DataLoader.loadProducts(MainActivity.context);
 
+        for (int i = 0; i < productsList.size(); i++) {
+            Product p = productsList.get(i);
+
+            if (p != null && p.name != null) {
+                // חיפוש חכם – תחילת שם
+                if (p.name.startsWith(name)) {
+                    return p.barcode;
+                }
+            }
+        }
+
+        return null; // לא נמצא
     }
+
     public static ArrayList<Product> getListOfProductsByName(String name){
         List<Product> productsList =  DataLoader.loadProducts(MainActivity.context);
         ArrayList<Product> result = new ArrayList<>();
