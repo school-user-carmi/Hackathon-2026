@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "10939173206",
+    "project_id": "hackthon2026-1aaf0",
+    "storage_bucket": "hackthon2026-1aaf0.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:10939173206:android:58af8b1af97576efd2eef7",
+        "android_client_info": {
+          "package_name": "com.example.hackathon_2026"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBWZewEcxNHFPvuGUpGm6GWh5naHkew1TY"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

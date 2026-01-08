@@ -30,7 +30,7 @@ public class cameraTester extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        setContentView(R.layout.camera_ocr);
 
         previewView = findViewById(R.id.previewView);
         btnBack = findViewById(R.id.btnBack);
